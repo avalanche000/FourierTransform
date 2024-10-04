@@ -1,0 +1,83 @@
+* {
+  --gray: #2d3345;
+  --gray2: rgba(128, 128, 128, 0.1);
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: var(--gray);
+}
+
+#inputCanvas {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  width: 500px;
+  height: 500px;
+  border: 1px solid gray;
+  margin: 0;
+  padding: 0;
+}
+
+#outputCanvas {
+  position: absolute;
+  top: 100px;
+  left: 700px;
+  width: 500px;
+  height: 500px;
+  border: 1px solid gray;
+  margin: 0;
+  padding: 0;
+}
+
+#sectionsSlider {
+  position: absolute;
+  bottom: 50px;
+  left: 100px;
+  width: 500px;
+  border: none;
+  outline: none;
+}
+
+#epicyclesSlider {
+  position: absolute;
+  bottom: 50px;
+  left: 700px;
+  width: 500px;
+  border: none;
+  outline: none;
+}
+
+#speedSlider {
+  position: absolute;
+  bottom: 100px;
+  left: 1300px;
+  width: 200px;
+  transform: translateY(+50%);
+  border: none;
+  outline: none;
+}
+
+#timeSlider {
+  position: absolute;
+  bottom: 50px;
+  left: 1300px;
+  width: 200px;
+  transform: translateY(+50%);
+  border: none;
+  outline: none;
+}
+
+#autoCheckbox {
+  position: absolute;
+  bottom: 50px;
+  left: 1530px;
+  width: 20px;
+  height: 20px;
+  transform: translateY(+50%);
+  border: none;
+  outline: none;
+}
